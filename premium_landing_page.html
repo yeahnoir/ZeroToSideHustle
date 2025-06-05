@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$0 to Side Hustle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#1c1c1c] text-white scroll-smooth">
+  <!-- Email Popup -->
+  <div id="emailPopup" class="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
+    <div class="bg-[#2a2a2a] p-6 rounded-lg w-full max-w-md text-center relative">
+      <button id="closePopup" class="absolute top-2 right-2 text-white">&times;</button>
+      <h2 class="text-xl font-bold mb-2">Don't Miss This</h2>
+      <p class="mb-4">Enter your email to get a free 7-day Notion content planner</p>
+      <form action="https://YOUR_MAILERLITE_URL" method="post" target="_blank">
+        <input type="email" name="email" required placeholder="you@example.com"
+          class="w-full p-3 rounded text-black">
+        <button type="submit"
+          class="mt-4 bg-white text-black px-4 py-2 rounded hover:bg-gray-200 font-semibold">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center px-6 text-center" data-aos="fade-up">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">$0 to Side Hustle</h1>
+    <p class="text-lg md:text-xl max-w-2xl mb-6">5 Plug & Play Digital Products You Can Launch This Week — even if you're starting with nothing.</p>
+    <a href="#buy" class="bg-white text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-300">Get the eBook</a>
+  </section>
+
+  <!-- Why Digital Products Matter -->
+  <section class="py-20 px-6" data-aos="fade-right">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Why Digital Products Matter</h2>
+      <p class="text-lg">In a world ruled by 9–5s and burnout, digital products are the fastest, most scalable path to financial freedom. You create it once — it sells forever. No inventory. No boss. Just pure ownership. This book shows you how to build your digital empire from scratch.</p>
+    </div>
+  </section>
+
+  <!-- Start With Nothing -->
+  <section class="py-20 px-6 bg-[#2a2a2a]" data-aos="fade-left">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Start With Nothing</h2>
+      <p class="text-lg">You don't need money, a team, or a fancy laptop. Just the desire to break out of the system. If you're tired of clocking in and want to wake up building your own thing — this is your start line. Everything in this book was made from scratch. You can do it too.</p>
+    </div>
+  </section>
+
+  <!-- Gumroad Embed -->
+  <section id="buy" class="py-20 px-6" data-aos="zoom-in">
+    <div class="max-w-4xl mx-auto">
+      <iframe src="https://gumroad.com/l/zerotosidehustle?layout=profile" width="100%" height="600px" frameborder="0" class="rounded-xl"></iframe>
+    </div>
+  </section>
+
+  <!-- Product Description -->
+  <section class="py-20 px-6" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">What is This Guide?</h2>
+      <p class="text-lg">A 34-page digital playbook teaching you how to start a real side hustle with $0. You'll get product ideas, marketing strategy, step-by-step setup, and more — all plug & play. Zero fluff. All action.</p>
+    </div>
+  </section>
+
+  <!-- What’s Inside -->
+  <section class="py-20 px-6 bg-[#2a2a2a]" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-12 text-center">What’s Inside the Guide</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-[#1c1c1c] p-6 rounded-lg shadow">
+          <h3 class="font-bold text-xl mb-2">🔹 Product Starter Framework</h3>
+          <p>Build your first product using proven strategies that don't require any startup capital.</p>
+        </div>
+        <div class="bg-[#1c1c1c] p-6 rounded-lg shadow">
+          <h3 class="font-bold text-xl mb-2">🔹 5 Digital Product Ideas</h3>
+          <p>Launch templates, ebooks, swipe files, and more — with real examples and how-tos.</p>
+        </div>
+        <div class="bg-[#1c1c1c] p-6 rounded-lg shadow">
+          <h3 class="font-bold text-xl mb-2">🔹 Traffic Plan</h3>
+          <p>Step-by-step organic + paid strategy to get real eyes and real sales — fast.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 px-6 text-center text-sm text-gray-400">
+    <p class="mb-4">Created by Noir — Part of the Side Hustle Playbook Series</p>
+    <div class="flex justify-center gap-4">
+      <a href="https://tiktok.com/@yeahnoir" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046127.png" class="w-5 opacity-50 hover:opacity-100"></a>
+      <a href="https://yeahnoir.gumroad.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" class="w-5 opacity-50 hover:opacity-100"></a>
+      <a href="https://snapchat.com/add/yeahnoir" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" class="w-5 opacity-50 hover:opacity-100"></a>
+    </div>
+  </footer>
+
+  <script>
+    AOS.init();
+
+    // Email popup logic
+    document.getElementById('closePopup').addEventListener('click', () => {
+      document.getElementById('emailPopup').style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
